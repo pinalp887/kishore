@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js" defer></script>
+    <title>Virtualite Landing page</title>
+
+<!--CSS Link-->   
+    <link rel="stylesheet" href="./index.css">
+
+
+
+<!--Google Fonts Georgia-->
+
+    <style>
+        @font-face {
+            font-family:"Fira Sans";
+            src: url(/fonts/Fira_Sans/FiraSans-Bold.ttf);
+            src: url(/fonts/Fira_Sans/FiraSans-Light.ttf);
+        }
+
+        @font-face {
+            font-family: "Georgia";
+            src: url(/fonts/georgia/georgia\ bold.ttf);
+        }
+        p{
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 14px;
+        }
+
+        h1{
+            font-family: 'Fira Sans-bold', sans-serif;
+            font-size: 20px;
+        }
+
+        a{
+            font-family: 'Fira_Sans', sans-serif;
+        }
+
+        .info_four_sub_content h1{
+            font-family: 'Georgia-bold';
+        }
+
+        .info_three_content h1{
+            font-family: 'Georgia-bold';
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="flex_container">
+        <div class="main_container">
+
+<!-- Navbar -->
+
+            <div class="nav">
+                <div class="nav_logo"><img src="./assets/logo copy.png" alt=""></div>
+                <div class="nav_list">
+                    
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#developmentServices">Our Services</a></li>
+                        <li><a href="#abtUs">About Us</a></li>
+                    </ul>
+                    
+                </div>
+                <div><a class="button" href="#">Get in Touch</a></div>
+            </div>
+
+<!-- Hero Section -->
+        
+            <div class="hero_section">
+                <div class="hero_section_content">
+                    <p style="font-family: Fira Sans; font-size: 12px; padding-left: 0.3rem;">We Provide Custom Tech Solutions That Help You Grow</p>
+                    <h1 style="font-family: Georgia-bold; color: #3ce6f0; font-size: 36px; padding: 1rem 2rem 0 0.5rem;">Exprience the Power of Digitalization</h1>
+                </div>
+                
+            </div>
+
+<!--Why we are best-->
+
+            <div class="info_one">
+                <div class="info_one_heading">
+                    
+                    <img src="./assets/Group 12528.svg" alt="">
+                    <p style="font-size: 16px; padding: 20px;">We believe in creating value for your business with our 
+                       robust and customizable IT application - let us help your 
+                       to explore thepower of innovative technologies
+                    </p>
+                    
+                    
+                    
+                </div>
+
+                <div class="info_one_icon">
+                    <img src="./assets/Group 12521.svg" alt="">
+                    <h1>Technology Adaption</h1>
+                    <p>Our Development team is highly adaptable to cope up with 
+                       the enhancing technologies to develope better applications</p>
+                </div>
+
+                <div class="info_one_icon">
+                    <img src="./assets/Group 12520.svg" alt="">
+                    <h1>Affordable Prices</h1>
+                    <p>Our promise to develop innovative and cost-effective applications for your business at affordable prices.</p>
+                </div>
+
+                <div class="info_one_icon">
+                    <img src="./assets/Group 12522.svg" alt="">
+                    <h1>100% Quality Assured</h1>
+                    <p>We don’t compromise in quality as the efficiency and security of our products and services is all that matters.</p>
+                </div>
+            </div>
+
+<!--Our Core Services-->
+
+            <div class="info_two">
+                <img src="./assets/Group 12529.svg" alt="">
+                <div class="info_two_list">
+                    <!--Tab Lists-->
+                        <button class="tablinks active" onclick="openPage(event,'developmentServices')">Development Services</button>
+                        <button class="tablinks" onclick="openPage(event, 'onlineTraining')">Online Training</button>
+                        <button class="tablinks" onclick="openPage(event, 'digitalMarketing')">Digital Marketing</button>
+                        <button class="tablinks" onclick="openPage(event, 'jobSupport')">Job support</button>
+                        <button class="tablinks" onclick="openPage(event, 'staffing')" class="staffing">Staffing</button>
+                    
+                </div>
+                
+
+                    
+                    <!--Development Service Tab Contents-->
+                    <div id="developmentServices" class="tabcontent" style="display: flex;">
+                    <div class="card">
+                        <img src="./assets/00495fc805734c6ff297137d371997d7.png" alt="">
+                        <h1>Software Development</h1>
+                        <p>Our proficient team of Developers is ready to support a full life cycle of Software Development services for our clients. We are glad to extend our services in all phases of …</p>
+                        <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                    </div>
+                
+                
+                    <div class="card">
+                        <img src="./assets/8452241e0ac18286579f0da432ecfc8f.png" alt="">
+                        <h1>Website Design and Development</h1>
+                        <p>Any product or software is nothing if it fails to provide a good and smooth user experience and that’s where exactly the …</p>
+                        <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                    </div>
+                
+                
+                    <div class="card">
+                        <img src="./assets/5cbf26359952166c18820ccb0b923022.png" alt="">
+                        <h1>Mobile Application Development</h1>
+                        <p>Are you sure that you don’t want a mobile app for your business? Apparently, it’s a fact that very business does not need to have …</p>
+                        <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                    </div>
+                
+                
+                    <div class="card">
+                        <img src="./assets/227aa588db52e5eb7b14aba3ac55db8c.png" alt="">
+                        <h1>Product Design – UX & UI Design</h1>
+                        <p>A good digital experience can always make a huge difference, yeah, that’s right! But, have you ever considered exceptional? …</p>
+                        <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                    </div>
+                    </div>
+
+                    <!--Online Training Tab-->
+
+                    <div id="onlineTraining" class="tabcontent" style="width: 50%">
+                        <div class="card">
+                            <img src="./assets/9893a3a2648ffc14c81a90d5d7612ded.png" alt="">
+                            <h1>Online Training</h1>
+                            <p>We are living in a constant change and there is something that demands more and more with each passing day – yes, it is our ...</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/227aa588db52e5eb7b14aba3ac55db8c.png" alt="">
+                            <h1>Corporate Training</h1>
+                            <p>Are you looking for options to consider some skill improvement trainings for your employees? It might come out to be an …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <!--Digital Marketing Tab-->
+
+                    <div id="digitalMarketing" class="tabcontent">
+                        <div class="card">
+                            <img src="./assets/f294959145073e62e333fa49019a006c.png" alt="">
+                            <h1>Search Engine Optimization</h1>
+                            <p>SEO is a very important digital marketing strategy. The concept is simple, people often trigger searches on Search Engines like …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/1d298346d66c9ca17565fc772819f221.png" alt="">
+                            <h1>On & Off Page SEO</h1>
+                            <p>SEO needs to be conquered in two main fronts and that On Page and Off Page SEO techniques. On Page covers your website …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/b8b52e2a682dc72d18e2fbb477464660.png" alt="">
+                            <h1>Social Media Optimization & Marketing</h1>
+                            <p>We understand that maintaining a good social reputation is important. VTS offers services in setting up a new online …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/9c9b12a4f13fcc1b14d60653ee772119.png" alt="">
+                            <h1>Content Management</h1>
+                            <p>The backbone of any good SEO campaigns would always be the contents. Now, even the search engine algorithms acknowledge …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <!--Job Support-->
+
+                    <div id="jobSupport" class="tabcontent" style="width: 30%">
+                        <div class="card">
+                            <img src="./assets/fddac950d974140a74a1d39a137813a8.png" alt="">
+                            <h1>Job Support</h1>
+                            <p>Are you looking for any support in your current job roles? Any one can use an extra hand, right? We make this happen here …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                     </div>   
+                    <!--Staffing Tab-->
+
+                    <div id="staffing" class="tabcontent" style="width: 30%">
+                        <div class="card">
+                            <img src="./assets/8cac45618e1f9f8b977e64d8e8ce2f78.png" alt="">
+                            <h1>Staffing</h1>
+                            <p>We help companies to connect to the right talents. We support to find the fresh and experienced resources for business …</p>
+                            <div class="img_btn"><img src="/assets/chevron_right_default state.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+            
+<!--About Us-->
+
+            <div id="abtUs" class="info_three">
+                <div class="main_container">
+                <div class="info_three_content">
+                <h1 style="font-size: 36px; padding-top: 40px; padding-bottom: 12px; color: #3ce6f0;">About Us</h1>
+                <p style="padding-bottom: 50px ;">
+                    We are a Software Development company that is determined to connect digitalization with technology and are highly motivated 
+                    to pitch in with new ideas to excel your Business. We take pride in our services and can help businesses to meet end to end needs right at 
+                    one place. We always aim to develop secure and reliable products for our clients that are highly customizable to address the 
+                    specific business needs. Our clients are more like our business partners and we always strive to deliver more than the expectations. 
+                    We have a dedicated team of professionals to analyze every business requirement and layout a process to achieve goals in the best regard 
+                    to the business. VTS is a one stop shop to take care of all your IT requirements, we are a Software Development Company based in India to 
+                    meet end to end needs of your business. We value relationships and are keen to work along with our business partners to facilitate overall 
+                    growth. We offer extensive support in Development (Web Applications/Apps), Designing (UI/UX), Cloud Support, Quality & Testing, Maintenance, 
+                    Online Training Programs, Digital Marketing and Job Staffing solutions. We promise an outstanding experience with our innovative ideas and 
+                    end to end support.
+                </p>
+                <div><a class="button" href="#">Get in Touch</a></div>
+                </div>
+            </div>
+            </div>
+        
+
+<!--Get Started with us-->
+                
+                <div class="info_four">
+                <div class="main_container">  
+                <div class="info_four_sub">
+                    
+                    <div class="info_four_sub_content">
+                        <h1 style="font-size: 36px;">Get startted with us your first project</h1>
+                        <p style="padding-top: 12px;">
+                            We are dedicated to support businesses with innovative IT technologies. Happy to offer customizable and 
+                            cost-effective solutions for your business.</p>
+                    </div>
+                    <div class="btn"><a class="button" href="#">Let's talk</a></div>
+                </div>
+            </div>
+                <div class="footer">
+                    <div class="main_container">
+                       <div class="footer_list">
+                            <div><img src="./assets/logo.png" alt=""></div>
+                            <div class="footer_text"><a href="">Our Services</a></div>
+                            <div class="footer_text"><a href="">About Us</a></div>
+                            <div class="footer_text"><a href="">Contact Us</a></div>
+                            <div class="footer_text"><a href="">Privacy Policy</a></div>
+                            <div class="footer_text"><a href="">Terms & Condition</a></div>
+                       </div>
+                    </div>
+                </div>
+               </div>
+
+            </div>
+        
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

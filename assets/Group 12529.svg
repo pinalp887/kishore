@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="332.542" height="97.22" viewBox="0 0 332.542 97.22">
+  <g id="Group_12529" data-name="Group 12529" transform="translate(-82.458 -1040)">
+    <g id="Ellipse_403" data-name="Ellipse 403" transform="matrix(0.995, -0.105, 0.105, 0.995, 82.458, 1082.521)" fill="none" stroke="#25acd6" stroke-width="1">
+      <ellipse cx="68.5" cy="27.5" rx="68.5" ry="27.5" stroke="none"/>
+      <ellipse cx="68.5" cy="27.5" rx="68" ry="27" fill="none"/>
+    </g>
+    <text id="Our_Core_Services" data-name="Our Core Services" transform="translate(98 1040)" fill="#3ec6f0" font-size="36" font-family="Georgia-Bold, Georgia" font-weight="700"><tspan x="0" y="33">Our Core </tspan><tspan x="0" y="75">Services</tspan></text>
+  </g>
+</svg>
