@@ -150,26 +150,6 @@ body{
     margin-top: 80px;
 }
 
-.info_two_list{
-    margin-top: 15.7px;
-}
-
-.info_two_list{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.info_two_list button{
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: black;
-    opacity: 50%;
-    background-color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-}
 
 .info_two_list button:hover{
     opacity: 100%;
@@ -177,22 +157,20 @@ body{
 
 
 
-.card img{
-  width: 100%;
+.cards .card img{
+  
 }
 
 
 
-/*Tabs*/
-
-.tabcontent{
-    width: 100%;
-    display: none;
-    margin-top: 44px;
-    
+/*Cards*/
+.cards{
+    display: flex;
+    margin-top: 2.7rem;
 }
 
-.tabcontent .card{
+
+.cards .card{
     position: relative;
     margin-left: 30px;
     border: 1px solid #E5E5E5;
@@ -200,45 +178,33 @@ body{
     
 }
 
-.tabcontent .card:hover{
+.cards .card:hover{
     border: 2px solid #E5E5E5;
 }
 
 
 
-.tabcontent .card h1{
+.cards .card h1{
     padding: 12px;
 }
 
-.tabcontent .card p{
+.cards .card p{
     padding: 0 12px 12px 12px;
 }
 
 
 
-.info_two_list button{
-    font-size: 16px;
-}
 
-.info_two_list button.active{
-    opacity: 100%;
-}
-
-
-.img_btn{
+.card_btn{
     position: absolute;
     bottom: -20px;
     left: 45%;
 }
 
-.img_btn:hover{
+.card_btn:hover{
     opacity: 70%;
 }
 
-.tablink{
-    border: none;
-    background-color: #FFFFFF;
-}
 
 
 /*About Us*/
@@ -277,20 +243,32 @@ body{
     padding-bottom: 40px;
     color: #FFFFFF;
     
-    
-    
 }
+
+
 
 .info_four_sub_content{
     
     width: 55%;
 }
 
-.btn{
-    padding-top: 37px;
-    
+.info_four_sub .cntct_icon ul{
+    list-style: none;
 }
 
+.info_four_sub .cntct_icon ul li{
+    margin: 1rem;
+}
+
+.info_four_sub .cntct_icon ul li img{
+    margin-right: 1.5rem;
+}
+
+.info_four .cntct_icon li span {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*Footer*/
 
 .footer{
     
@@ -305,9 +283,6 @@ body{
     justify-content: space-evenly;
     list-style: none;
     
-    
-    
-   
 }
 
 
@@ -324,3 +299,56 @@ body{
 
 
 
+/*Pages Content*/
+
+
+.dev_page_content .heading{
+    position:relative;
+    margin-bottom: 1.5rem;
+}
+
+.dev_page_content .heading img{
+    position: absolute;
+    
+    
+}
+
+.dev_page_content h1{
+    font-family: 'Georgia-bold';
+    margin-bottom: 1rem;
+    color:#0D0D0D;
+    font-size: 28px;
+    opacity: 100%;
+} 
+
+.dev_page_content .content h4{
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-family: 'Fira Sans-bold', sans-serif;
+    color: #0D0D0D;
+    opacity: 100%;
+}
+
+.dev_page_content .content{
+    padding: 1.5rem;
+}
+
+.dev_page_content p{
+    color: #1C1C1C;
+    margin: 1.8rem 0;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.dev_page_content .content ul{
+    margin-bottom: 3.125rem;
+    padding-left: 1rem;
+}
+
+.dev_page_content .content ul li{
+    color: #1C1C1C;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    font-family: 'Fira Sans-bold', sans-serif;
+    opacity: 70%;
+}
