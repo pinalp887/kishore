@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_12020" data-name="Group 12020" transform="translate(-693 -865)">
+    <rect id="Rectangle_5342" data-name="Rectangle 5342" width="80" height="80" transform="translate(693 865)" fill="none"/>
+    <g id="search-2" transform="translate(702.999 875)">
+      <g id="Group_12012" data-name="Group 12012" transform="translate(15.647 13.837)">
+        <g id="Group_12011" data-name="Group 12011">
+          <path id="Path_107854" data-name="Path 107854" d="M166.713,119.239a3.5,3.5,0,0,0-4.983,0l-10.059,10.025-4.53-4.5a3.5,3.5,0,1,0-4.98,4.92l6.973,6.97a3.411,3.411,0,0,0,2.54,1.112,3.362,3.362,0,0,0,2.474-1.041l12.565-12.529A3.524,3.524,0,0,0,166.713,119.239ZM139.02,140.893l-4.815,4.813a1.759,1.759,0,0,0,2.488,2.488l4.815-4.813a1.759,1.759,0,0,0-2.488-2.488Z" transform="translate(-133.69 -118.197)" fill="#def9ff"/>
+        </g>
+      </g>
+      <g id="Group_12014" data-name="Group 12014" transform="translate(0.001)">
+        <g id="Group_12013" data-name="Group 12013" transform="translate(0)">
+          <path id="Path_107855" data-name="Path 107855" d="M37.149,0A22.852,22.852,0,1,0,60,22.852,22.9,22.9,0,0,0,37.149,0ZM47.415,18.6,34.864,31.113a1.7,1.7,0,0,1-2.461,0l-7.031-7.031a1.74,1.74,0,0,1,2.461-2.461l5.8,5.766,11.285-11.25a1.74,1.74,0,0,1,2.5,0,1.761,1.761,0,0,1,0,2.461ZM16.182,38.847a1.757,1.757,0,0,0-2.486,0L.516,52.028a1.757,1.757,0,0,0,0,2.486l4.971,4.971a1.757,1.757,0,0,0,2.486,0L21.154,46.3a1.757,1.757,0,0,0,0-2.486Z" transform="translate(-0.001)" fill="#1db3d6"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

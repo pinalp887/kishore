@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_12019" data-name="Group 12019" transform="translate(-993 -865)">
+    <rect id="Rectangle_5341" data-name="Rectangle 5341" width="80" height="80" transform="translate(993 865)" fill="none"/>
+    <g id="insurance" transform="translate(949 875)">
+      <g id="Group_12016" data-name="Group 12016" transform="translate(61 0)">
+        <g id="Group_12015" data-name="Group 12015" transform="translate(0 0)">
+          <path id="Path_107856" data-name="Path 107856" d="M105.231,9.565C95.438,9.565,85.289.546,85.189.456a1.778,1.778,0,0,0-2.377,0c-.1.091-10.223,9.109-20.042,9.109A1.764,1.764,0,0,0,61,11.323V32.374c0,17.054,12.766,23.868,22.369,27.51a1.781,1.781,0,0,0,1.262,0C98.1,54.778,107,46.811,107,32.374V11.323A1.764,1.764,0,0,0,105.231,9.565Z" transform="translate(-61 0)" fill="#1db3d6"/>
+        </g>
+      </g>
+      <g id="Group_12018" data-name="Group 12018" transform="translate(71.705 17.705)">
+        <g id="Group_12017" data-name="Group 12017" transform="translate(0)">
+          <path id="Path_107857" data-name="Path 107857" d="M163.3,151a12.3,12.3,0,1,0,12.3,12.3A12.309,12.309,0,0,0,163.3,151Zm4.755,11.781-5.269,5.269a1.756,1.756,0,0,1-2.484,0l-1.756-1.756a1.756,1.756,0,1,1,2.484-2.484l.515.514,4.027-4.027a1.756,1.756,0,1,1,2.484,2.484Z" transform="translate(-151 -151)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
