@@ -1846,3 +1846,7 @@ button:focus {
 .pad110 {
   padding-top: 110px;
 }
+
+.whatsapp-logo-img, .linkeding-logo-img {
+  height: 20px;
+}
