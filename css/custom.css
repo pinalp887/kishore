@@ -194,7 +194,7 @@ input:focus + label {
   padding: 0;
 }
 .navbar-brand img {
-  height: 40px;
+  height: 45px;
   width: auto;
   display: block;
   -webkit-transition: all 0.3s ease-out;
@@ -1851,5 +1851,54 @@ button:focus {
   height: 20px;
 }
 .placement-consultants-submenu{
-  top: unset;
+  left: 200px;
+  top: 135px;
+}
+
+.placement-services-toggle{
+  font-weight: 400px !important;
+  font-size: 15px !important;
+  color: #212529 !important;
+  opacity: 1;
+}
+.placement-services-toggle:hover .placement-consultants-submenu {
+  display: block;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+}
+.placement-services-toggle:after {
+  transform: rotate(-90deg);
+}
+@media only screen and (max-width: 767px) {
+  .placement-services-toggle{
+    color: white !important;
+  }
+  .dropdown-submenu{
+    background-color: #27629a !important;
+  }
+  .placement-services-toggle:hover .placement-consultants-submenu {
+    display: block;
+    margin-top: 0;
+    width: auto;
+    height: auto;
+  }
+  .placement-consultants-submenu{
+    padding-right: 10px;
+    padding-left: 15px;
+    background: #27629A 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .placement-services-toggle:after {
+    transform: rotate(0deg);
+  }
+  .services-row{
+    flex-direction: column-reverse;
+  }
+}
+.invalid-input {
+  color: red;
+}
+.form-submit-btn:hover{
+  color: white;
 }
